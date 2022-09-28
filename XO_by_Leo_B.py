@@ -1,3 +1,4 @@
+import os
 import random
 
 def screen():
@@ -327,6 +328,7 @@ def final():
         print(" ПОТРАЧЕНКО\nне твой день")
     if endgame == "draw":
         print("НИЧЬЯ! ПОПРОБУЙ ЕЩЕ РАЗ!")
+    os.system("pause ")
 
 
 
